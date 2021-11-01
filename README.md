@@ -1,4 +1,4 @@
-# CheaprEats
+# CheaprEats (the Soupsons)
 
 ## Description
 
@@ -26,13 +26,10 @@ This serves as an accessible option to those who can't use alternative systems, 
 
 ## Instructions
 
--   Provide clear steps for using each feature described above
--   This section is critical to testing your application and must be done carefully and thoughtfully
-
 As our partner is handling the deployment of the application, we have not yet reached the point where we have an MVP yet. \
-Nonetheless, one can test components we have created via either the deployed Storybook to Heroku or cloning the repository and start Storybook locally.
+Nonetheless, one can test components we have created via either the deployed Storybook to or cloning the repository and start Storybook locally.
 
-For the former, you can use this link to access said site. \
+For the former, you can use this [link](https://617f80a235eb4a003a1f095f-teungproxo.chromatic.com/) to access said site. \
 For the latter, you can clone this repository, run `npm install` and then `npm start` to start Storybook to test our components.
 
 Once you are on Storybook, navigate to the components we have built that you wish to test. You can change the arguments to see how our components change accordingly.
@@ -49,9 +46,9 @@ Once you are on Storybook, navigate to the components we have built that you wis
 
 ## Development requirements
 
-[Prettier](https://marketplace.visualstudio.com/items?itemName=esbenp.prettier-vscode "Prettier's Download Link") is required to develop CheaprEats.
+[Prettier](https://marketplace.visualstudio.com/items?itemName=esbenp.prettier-vscode "Prettier's Download Link") is required to develop CheaprEats components.
 
-After installing Prettier, you can clone the repository and start developing and testing.
+After installing Prettier, you can clone and start working on the repository.
 
 ## Deployment and Github Workflow
 
