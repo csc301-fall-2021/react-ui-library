@@ -29,10 +29,12 @@ This serves as an accessible option to those who can't use alternative systems, 
 As our partner is handling the deployment of the application, we have not yet reached the point where we have an MVP yet. \
 Nonetheless, one can test components we have created via either the deployed Storybook to or cloning the repository and start Storybook locally.
 
-For the former, you can use this [link](https://617f80a235eb4a003a1f095f-teungproxo.chromatic.com/) to access said site. \
+For the former, you can use this [link](https://617f80a235eb4a003a1f095f-teungproxo.chromatic.com/ "Chromium's Application") to access said site. \
 For the latter, you can clone this repository, run `npm install` and then `npm start` to start Storybook to test our components.
 
 Once you are on Storybook, navigate to the components we have built that you wish to test. You can change the arguments to see how our components change accordingly.
+
+The demo to how to use Storybook is available [here](https://youtu.be/YYwgspH90k0).
 
 -   **VoiceButton** \
     In the Basic page: - When hovering the voice button in canvas, the button should turn grey. - When clicking the Microphone, there should be an Actions tab below that signals Button Click Occurred. - On the Controls tab, there should be many options to change the voice button accordingly. The below describes setting the values to those options and what should happen: - When we set disabled to be True, hovering should not change the button’s colour. - When we set isPulsing to be True, there should be a pulsing effect around the voice button. - We can set iconSize to be however pixels and the Microphone width and height should be equal to corresponding iconSize. - We can set volume to be a percentage lower than 100%. This makes the green overlay fill up the microphone to however input percentages. - We can change the name above the microphone by changing the name in children.
@@ -42,7 +44,9 @@ Once you are on Storybook, navigate to the components we have built that you wis
 
 -   **OrderTracker** \
     Go to the page in which you want to do the testing: the Basic page is for a normal use while both NoText and LongText are for edge-case testing. You can change the size (e.g 10px, 3em, etc.), color of the texts and icons, and current state to see the change transition between states (from 0 to 1, 1 to 2, etc). \
-    It is also possible to change the icons themselves by changing the arguments in `src/Container/OrderTracker/OrderTracker.stories.tsx` file.
+
+It should be noted one can create different testing scenarios directly via editing the file src/Container/\<ComponentName\>/\<ComponentName\>.stories.tsx \
+(e.g. `src/Container/OrderTracker/OrderTracker.stories.tsx`) directly.
 
 ## Development requirements
 
